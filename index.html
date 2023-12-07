@@ -10,9 +10,11 @@
 <body>
 <div id="header">
 	<h2>Tech website</h2>
-	<button class="Home">Home</button>
-	<button class="Products">Products</button>
-	<button class="About">About</button>
+	<div id="headBtn">
+	<button id="Home">Home</button>
+	<button id="Products">Products</button>
+	<button id="About">About</button>
+</div>
 	<label for="search-box"></label>
 	<input type="text" id="search-box" placeholder="Search...">
 
@@ -27,12 +29,19 @@
 	<input type="text" id="searchProducts" placeholder="Search for products">
 	</div>
 
-	<div id="main_buttons">
-	<button id="viewAll">View all</button>
-	<button id="search">Search</button>
-	<button id="featured">Featured</button>
-	<button id="New-arrivals">New Arrivals</button>	
+	<div id='main_buttons'>
+	
+	<div id="buttonsLeft">
+	<button id="leftBtn">View all</button>
+	<button id="leftBtn">Search</button>
 	</div>
+
+	<div id="buttonsRight">
+	<button id="rightBtn">Featured</button>
+	<button id="rightBtn">New Arrivals</button>	
+	</div>
+	</div>
+
 
 	<div id="featuredProducts">
 		
