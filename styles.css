@@ -1,3 +1,7 @@
+* {
+
+	box-sizing: border-box;
+    }
 html,
 body {
 	height:100vh;
@@ -52,12 +56,16 @@ body {
 	position: relative;
 	min-width: 25%;
 	padding: 5%;
+	gap: 20px;
+
 }
 
 #topBtn {
 	display: flex;
 	min-width: 25%;
 	flex-direction: column;
+	height: 50px;
+	width: 60px;
 }
 
 #bottomBtn {
@@ -74,8 +82,10 @@ body {
   align-items: center;
   position: relative;
   box-sizing: border-box;
-  
+  width: 100px;
 }
+
+
 
 
 #search-box {
