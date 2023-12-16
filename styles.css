@@ -1,61 +1,228 @@
+html,
 body {
 	height:100vh;
-	justify-content: center;
-	align-items: center;
-
+	margin:0;
+	padding: 0;
+	background: linear-gradient(to bottom right, #ae00ff,#00ffff ) ;
+	color: #ffff;
+	overflow: hidden;
+	overflow-y: scroll;
 }
 
 
 #header {
 	display: flex;
 	align-items: center;
-	background: linear-gradient(to bottom right, #007bff,#00ffff ) ;
-	width:100%;
-	margin: 0px;
-	padding: 0px;
-	
+	padding: 0.4rem;
+	border: 1px solid black;
+	position: relative;
 }
 
 #heading1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 	flex-direction: column;
+	font-size: 25px;
+	border: 1px solid black;
+	position: relative;
+	
+
 }
 
 
 #headBtn {
 	display: flex;
-	margin-left: 70%;
-	justify-content: space-between;
+	margin-left: auto;
 	justify-content: center;
-	align-items: center;
-
+	border: 1px solid black;
+	gap:5px;
+	position: relative;
 	
 }
 
 #main_buttons {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	margin-top: 20px;
+	border: 1px solid black;
+	position: relative;
+	min-width: 25%;
+	padding: 5%;
+}
+
+#topBtn {
+	display: flex;
+	min-width: 25%;
+	flex-direction: column;
+}
+
+#bottomBtn {
+	display: flex;
+	min-width: 25%;
+	flex-direction: column;
+
+}
+
+#topBtn,
+#bottomBtn {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  
+}
+
+
+#search-box {
+	display: flex;
+	border: 1px solid black;
+	position: relative;
+	margin: auto;
+	
+}
+
+#featuredProducts {
+	display: block;
+	position: relative;
 	justify-content: center;
 	align-items: center;	
-	gap: 5px 5px;
+	text-align: center;
+	
+}
+
+#footer {
+	position: absolute;
+	align-items: center;
+	justify-content:center;
+	text-align: center;
+	border: 10px solid black;
+	width: 100vw;
+	bottom: 0;
+	background-color: black;
+
+
+}
+
+.gallery {
+	display: flex;
+	margin-top: 2%;
+	height: 300px;
+	width: 400px;
+}
+
+.tech {
+	display: flex;
+	border: 3px solid black;
+	box-sizing: border-box;
+
+
+	}
+
+#gallery-images{
+	display: grid;
+	gap: auto;	
+	overflow:none;
+	border: 1px solid black;
+	
+	
+
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 815px) {
+	#heading1{
+		font-size: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		flex-direction: column;
+		border: 1px solid black;
+		position: relative;
+			
+}
+#header {
+	display: block;
+	position: relative;
+	justify-content: center;
+	align-items: center;	
+	text-align: center;
+}
+
+#headBtn {
+	display: block;
+	position: relative;
+	justify-content: center;
+	align-items: center;	
+	text-align: center;
+		
+}
+
+#main_buttons {
+	display: flex;
+	justify-content: center;
 	margin-top: 20px;
-	padding: 5px;
-	flex-direction: row;
+	border: 1px solid black;
+	position: relative;
+	min-width: 25%;
+	padding: 5%;
 }
 
-#leftBtn {
-	padding: 10px 30px;
+#topBtn {
 	display: flex;
-	flex-direction: row;
+	min-width: 25%
+
 }
 
-#rightBtn {
-	padding: 10px 20px;
-	gap: 5px;
-	margin: 10px;
-	min-width: 30px;
+#bottomBtn {
 	display: flex;
-	flex-direction: row;
+	min-width: 25%
+
 }
+
+#topBtn,
+#bottomBtn {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  
+}
+
+
+input {
+	display: block;
+	position: relative;
+	justify-content: center;
+	align-items: center;	
+}
+
+#featuredProducts {
+	display: block;
+	position: relative;
+	justify-content: center;
+	align-items: center;	
+	text-align: center;
+}
+
+#footer {
+	position: fixed;
+	align-items: center;
+	justify-content:center;
+	text-align: center;
+	width: 100vw;
+
+}
+
+
+}
+
+
+
+
+

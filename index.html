@@ -10,13 +10,18 @@
 <body>
 <div id="header">
 	<h2>Tech website</h2>
+	
+
+	
 	<div id="headBtn">
-	<button id="Home">Home</button>
-	<button id="Products">Products</button>
-	<button id="About">About</button>
-</div>
-	<label for="search-box"></label>
-	<input type="text" id="search-box" placeholder="Search...">
+		<label for="search-box"></label>
+		<input type="text" id="search-box" placeholder="Search...">
+		<select>
+		<option><button id="Home">Home</button></option>
+		<option><button id="Products">Products</button></option>
+		<option><button id="About">About</button></option>
+		</select>
+	</div>
 
 	
 
@@ -27,41 +32,66 @@
 	<h1> Welcome to my Tech website</h1>
 	<label for="searchProducts"></label>
 	<input type="text" id="searchProducts" placeholder="Search for products">
-	</div>
 
 	<div id='main_buttons'>
 	
-	<div id="buttonsLeft">
-	<button id="leftBtn">View all</button>
-	<button id="leftBtn">Search</button>
+		<div id="buttonsTop">
+
+			<button id="topBtn">View all</button>
+			<button id="topBtn">Featured</button>
+
+		</div>
+
+		<div id="buttonsBottom">
+
+			<button id="bottomBtn">Search</button>
+			<button id="bottomBtn">New Arrivals</button>	
+
+		</div>
+	</div>
 	</div>
 
-	<div id="buttonsRight">
-	<button id="rightBtn">Featured</button>
-	<button id="rightBtn">New Arrivals</button>	
-	</div>
-	</div>
 
 
 	<div id="featuredProducts">
 		
-		<h1 id="fProducts">Featured Products
+		<h1 id="fProducts">Featured Products</h1>
+			
 			<p>Check out our top picks</p>
 			<button id="AddToCart">Add to cart</button>
 			<button id="ViewDetails">View details</button>
 
-		</h1>
-
 	</div>
 	
-	<div id="News">
+	<div id="gallery-images">
+		<div class="gallery">
+			<img src="/images/camera.jpg" alt="camera" class="tech">
+		</div>
+		<div class="gallery">
+			<img src="/images/macbook.jpg" alt="macbook" class="tech">
+		</div>
+		<div class="gallery">
+			<img src="/images/pc.jpg" alt="pc" class="tech">
+		</div>
+		<div class="gallery">
+			<img src="/images/phone.jpg" alt="phone" class="tech">
+		</div>
+		<div class="gallery">
+			<img src="/images/switch.jpg" alt="nintendo switch" class="tech">
+		</div>
+		<div class="gallery">
+			<img src="/images/xbox.jpg" alt="xbox" class="tech">
+		</div>
 	
 
-
 	</div>
 	</div>
 
-<footer id="footer">Created by Gurban Gulamov. All rights reserved.</footer>
+	<div id="footer">
+		<footer>
+		Created by Gurban Gulamov. All rights reserved.
+		</footer>
+	</div>
 	
 </body>
 </html>
