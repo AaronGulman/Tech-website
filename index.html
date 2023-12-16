@@ -11,15 +11,14 @@
 <div id="header">
 
 	
-	<div id="headBtn">
 		<label for="search-box"></label>
 		<input type="text" id="search-box" placeholder="Search...">
-		<select>
-		<option><button id="Home">Home</button></option>
-		<option><button id="Products">Products</button></option>
-		<option><button id="About">About</button></option>
+
+		<select class="selectOpt">
+		<option>Home</option>
+		<option>Products</option>
+		<option>About</option>
 		</select>
-	</div>
 
 	
 
@@ -197,7 +196,7 @@
 			
 			<path d="M630.137471 722.806181l-31.890878 18.412246 31.890878 18.412246 31.888685-18.412246-31.888685-18.412246z" fill="#c15caf"/>
 			
-			<path d="M630.137471 762.161068l-36.276313 20.944834 36.276313 20.942642 36.274119-20.942642-36.274119-20.944834z" fill="#8d05d6"/>
+2		<path d="M630.137471 762.161068l-36.276313 20.944834 36.276313 20.942642 36.274119-20.942642-36.274119-20.944834z" fill="#8d05d6"/>
 			
 			<path d="M630.137471 764.693657l-31.890878 18.412245 31.890878 18.412246 31.888685-18.412246-31.888685-18.412245z" fill="#c15caf"/>
 			
@@ -225,7 +224,7 @@
 			
 			<path d="M702.687903 764.693657l-31.890878 18.412245 31.890878 18.412246 31.888685-18.412246-31.888685-18.412245z" fill="#c15caf"/>
 			
-			<path d="M775.238335 720.273593l-36.276313 20.944834 36.276313 20.942641 36.274119-20.942641-36.274119-20.944834z" fill="#8d05d6"/>
+2		<path d="M775.238335 720.273593l-36.276313 20.944834 36.276313 20.942641 36.274119-20.942641-36.274119-20.944834z" fill="#8d05d6"/>
 			
 			<path d="M775.238335 722.806181l-31.890878 18.412246 31.890878 18.412246 31.888685-18.412246-31.888685-18.412246z" fill="#c15caf"/>
 			
@@ -253,23 +252,19 @@
 
 	<h1> Welcome to my Tech website</h1>
 	<label for="searchProducts"></label>
-	<input type="text" id="searchProducts" placeholder="Search for products">
+	<input type="text" id="searchProducts" placeholder="Search for products...">
 
 	<div id='main_buttons'>
 	
-		<div id="buttonsTop">
-
-			<button id="topBtn">View all</button>
-			<button id="bottomBtn">Featured</button>
-
+		<div>
+			<button class="buttonsTop" id="topBtn">View all</button>
+			<button class="buttonsBottom" id="bottomBtn">Featured</button>
 		</div>
-
-		<div id="buttonsBottom">
-
-			<button id="topBtn">Search</button>
-			<button id="bottomBtn">New Arrivals</button>	
-
+		<div>
+			<button class="buttonsTop" id="searchBtn">Search</button>
+			<button class="buttonsBottom" id="bottomBtn">New Arrivals</button>	
 		</div>
+	
 	</div>
 	</div>
 
@@ -280,8 +275,11 @@
 		<h1 id="fProducts">Featured Products</h1>
 			
 			<p>Check out our top picks</p>
+
+			<div class="featuredBtns">
 			<button id="AddToCart">Add to cart</button>
 			<button id="ViewDetails">View details</button>
+			</div>
 
 	</div>
 
