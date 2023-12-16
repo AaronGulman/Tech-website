@@ -218,6 +218,13 @@ img:hover {
 
 /* ----------------------------------------------------------------------------------------- */
 
+@media only screen and (max-width: 815px) {
+* {
+
+* {
+
+	box-sizing: border-box;
+    }
 html,
 body {
 	height:100vh;
@@ -423,9 +430,5 @@ img:hover {
 	transform: scale(1.1);
     }
 
-
-
-/* .icon {
-	height: 300px;
-	width: 300px;
-} */
+}
+}
